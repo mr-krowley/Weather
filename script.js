@@ -13,9 +13,11 @@ function success(position) {
     .then((data) => {
       container.innerHTML = `<p class ="weather">${Math.round(
         data.main.temp - 273
-      )}</p>
-                            <p class="city">${data.name}</p>  
-                            <a class="link" href=""></a>
+      )} ℃</p>
+                            <p class="city"> ${
+                              data.weather[0].description
+                            } in ${data.name}</p>  
+                            <a class="link" href="#">Change city</a>
       `;
     });
 }

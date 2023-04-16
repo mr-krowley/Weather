@@ -3,10 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 header {
-  
   text-align: center;
   font-family: "Inter";
   font-weight: 300;
@@ -14,13 +12,43 @@ header {
   line-height: 34px;
   color: rgba(255, 255, 255, 0.5);
 }
-body{
+body {
   padding: 40px 0;
   background: linear-gradient(150.64deg, #8e2de2 0%, #4a00e0 100%);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+}
+.weather {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  color: #ffffff;
+}
+.city {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.link {
+  text-align: center;
+  display: block;
+  font-family: "Mulish";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 36px;
 }
 footer {
   text-align: center;
