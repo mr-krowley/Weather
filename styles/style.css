@@ -59,3 +59,29 @@ footer {
   line-height: 36px;
   color: rgba(255, 255, 255, 0.5);
 }
+
+.input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.7);
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+  margin-bottom: 36px;
+  text-align: center;
+}
+.button {
+  color: #4c01e0;
+  width: 140px;
+  height: 48px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
