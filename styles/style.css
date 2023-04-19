@@ -85,3 +85,29 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+.find {
+  color: #4c01e0;
+  width: 140px;
+  height: 48px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.Ooops {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  text-align: center;
+}
+.Errorinfo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 57px;
+}
